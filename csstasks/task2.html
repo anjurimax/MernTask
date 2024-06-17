@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK-2</title>
+    <style>
+      .nav1 {
+        width: 10rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        background-color: aqua;
+        border: 1px solid black;
+        color: black;      
+      }
+
+      .home {
+        padding: 10px;
+        background-color: orange;
+      }
+
+      .links {
+        padding: 10px;
+      }
+      .csslink {
+        padding: 10px;
+      }
+      .htmllinks {
+        padding: 10px;
+      }
+
+      .bslinks{
+        padding: 10px;
+      }
+
+      .nav1 :hover{
+        background-color: orange;
+      }
+
+      .nav-links {
+        background-color: lightgrey;
+        border: 1px solid black;
+        width: 25rem;
+        padding: 10px;
+        color: azure;
+        
+      }
+
+      .nav-links :hover{
+        background-color:darkgrey;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-decoration-line: underline;">CSS TASK-2</h1>
+    <h2 style="margin-top: 5rem; margin-left: 7.5rem; text-decoration-line: underline;">Vertical Navigation Bar</h2>
+    <nav class="nav1">
+      <div class="home">Home</div>
+      <div class="links">
+        <a href="#java"style="text-decoration: none;color: black">Java</a>
+      </div>
+      <div class="csslink">
+        <a href="#css"style="text-decoration: none;color: black">CSS</a>
+      </div>
+      <div class="htmllinks">
+        <a href="#html"style="text-decoration: none;color: black">HTML</a>
+      </div>
+      <div class="bslinks">
+        <a href="#bs"style="text-decoration: none;color: black">BootStrap</a>
+      </div>
+    </nav>
+    <h2 style="margin-left: 7rem; padding-top: 5rem;text-decoration-line: underline;">Horizontal Navigation Bar</h2>
+    <nav class="nav2" style="margin-left: 6rem;">
+      <div class="nav-links">
+        <a href="#home" style="padding-right: 2rem; background-color: darkgrey;padding: 9px;color: black;text-decoration: none;">Home<a> 
+        <a  href="#java" style="padding-right: 2rem;text-decoration: none;color: black">Java</a>  
+        <a  href="#html" style="padding-right: 2rem;text-decoration: none;color: black">HTML</a>
+        <a  href="#bs" style="padding-right: 2rem;text-decoration: none;color: black">BootStrap</a>     
+        <a  href="#css" style="text-decoration: none;color: black" >CSS</a>  
+      </div>
+    </nav>
+  </body>
+</html>

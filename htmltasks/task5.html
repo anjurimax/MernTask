@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TASK-5</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-decoration-line: underline">HTML TASK-5</h1>
+    <h2 style="margin-left: 42rem; color: blue">Registration form</h2>
+    <table>
+      <tr>
+        <td>
+          <label for="firstname">First Name</label>
+        </td>
+        <td>
+          <input type="text" id="firstname" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lastname">Last Name</label>
+        </td>
+        <td>
+          <input type="text" id="lastname" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email</label>
+        </td>
+        <td>
+          <input type="text" id="email" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password</label>
+        </td>
+        <td>
+          <input type="password" id="password" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="repassword">Re-enter Password</label>
+        </td>
+        <td>
+          <input type="password" id="repassword" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="gender">Gender:</label>
+        </td>
+        <td>
+          <input type="radio" id="gender" /> Male <br />
+          <hr />
+          <input type="radio" id="gender" /> Female
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="age">Age:</label>
+        </td>
+        <td>
+          <input type="number" id="age" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="phnumber">Phone number</label>
+        </td>
+        <td>
+          <input type="number" id="phnumber" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr style="height: 3rem">
+        <td>
+          <label for="address">Address</label>
+        </td>
+        <td>
+          <input
+            type="text"
+            id="address"
+            style="height: 2.9rem; width: 20rem"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="state">State</label>
+        </td>
+        <td>
+          <input type="text" id="state" style="width: 20rem" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="country">Country</label>
+        </td>
+        <td>
+          <select name="gender" id="gen">
+            <option value=" choose your country">choose your country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Russia">Russia</option>
+            <option value="Others">Others</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lan">Languages Know</label>
+        </td>
+        <td>
+          <input type="checkbox" id="lan" /> English
+          <input type="checkbox" id="lan" /> Hindi
+          <input type="checkbox" id="lan" /> Telugu
+          <input type="checkbox" id="lan" /> kannada
+        </td>
+      </tr>
+      <table style="width: 28.41rem">
+        <tr>
+          <td>
+            <input type="checkbox" /> Here by I declare all the given details
+            are true
+          </td>
+        </tr>
+      </table>
+      <table style="width: 28.41rem">
+        <tr>
+          <td>
+            <div style="margin-left: 18rem">
+              log in to <a href="#ethnus" target="_blank">Ethnus</a>website
+            </div>
+          </td>
+        </tr>
+      </table>
+      <button style="margin-top: 1rem; margin-left: 45rem">Register</button>
+    </table>
+  </body>
+</html>
