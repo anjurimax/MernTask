@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JAVA SCRIPT TASK-2</title>
+    <title>JavaScript Task-2</title>
     <style>
       #id {
         margin-top: 12rem;
@@ -14,29 +14,25 @@
     </style>
   </head>
   <body>
-    <h1 style="text-decoration-line: underline">JAVA SCRIPT TASK-2</h1>
-    <form id="id">
+    <form>
       <label>Enter the string:</label>
       <input type="text" id="str" /> <br />
-      <input type="button" onClick="rever()" value="reverse" />
-      <p>
-        The Result is : <br />
-        <span id="r"></span>
-      </p>
+      <input type="button" onClick="rever()" value="Sort" />
     </form>
+    <p>
+      The Result is: <br />
+      <span id="r"></span>
+    </p>
 
     <script>
       const rev = (a) => {
-        var inital = "";
-        for (i = 1; i < a.length + 1; i++) {
-          inital = inital + a[a.length - i];
-        }
-        return inital;
+        let initial = a.split("").sort().join("");
+        return initial;
       };
 
       function rever() {
         const inp = document.getElementById("str").value;
-        a = rev(inp);
+        let a = rev(inp);
         document.getElementById("r").innerHTML = a;
       }
     </script>
